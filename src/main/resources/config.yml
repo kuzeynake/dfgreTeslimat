@@ -1,0 +1,37 @@
+siparisler:
+  tarim:
+    materyal: "CARROT"
+    siralama-odulleri:
+      - "&f1. &aMVIP&c+"
+      - "&f2. &aMVIP"
+      - "&f3. &6VIP"
+    birinci:
+      hedef: 5000
+      odul-komut: "give %player% diamond 10"
+      mesaj: "&a1. Siparişi tamamladın!"
+    ikinci:
+      hedef: 10000
+      odul-komut: "give %player% emerald 10"
+      mesaj: "&a2. Siparişi tamamladın!"
+    ucuncu:
+      hedef: 15000
+      odul-komut: "give %player% netherite_ingot 1"
+      mesaj: "&a3. Siparişi tamamladın!"
+  uretim:
+    materyal: "BOW"
+    siralama-odulleri:
+      - "&f1. &aMVIP&c+"
+      - "&f2. &aMVIP"
+      - "&f3. &6VIP"
+    birinci:
+      hedef: 500
+      odul-komut: "give %player% string 64"
+      mesaj: "&e1. Üretim siparişini tamamladın!"
+    ikinci:
+      hedef: 1000
+      odul-komut: "give %player% arrow 128"
+      mesaj: "&e2. Üretim siparişini tamamladın!"
+    ucuncu:
+      hedef: 2500
+      odul-komut: "give %player% bow 1 enchantment:power:5"
+      mesaj: "&e3. Üretim siparişini tamamladın!"
